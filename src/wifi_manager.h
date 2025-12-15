@@ -1,0 +1,1 @@
+bool initWiFi(); void startCaptivePortal();

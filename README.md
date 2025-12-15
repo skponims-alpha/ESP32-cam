@@ -1,2 +1,18 @@
-# ESP32-cam
-📷 Camera Web Server base  🙂 Face-detection ready (ESP-FACE dependency included)  🚶 Motion detection (frame-difference based)  📡 ESP-NOW remote capture trigger (receiver side)  📱 Wi-Fi captive portal (WiFiManager, no hardcoded SSID)  🔋 Deep-sleep power optimization  🧱 Clean, modular, GitHub-ready structure
+# ESP32-CAM Advanced Surveillance
+
+PlatformIO-based ESP32-CAM firmware with:
+- Face detection
+- Motion detection
+- ESP-NOW remote capture
+- Wi-Fi captive portal
+- Deep sleep optimization
+
+## Flashing
+GPIO0 -> GND  
+`pio run -t upload`
+
+## Wi-Fi Setup
+Connect to AP: **ESP32-CAM-SETUP**
+
+## License
+MIT

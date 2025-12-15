@@ -1,0 +1,1 @@
+void initESPNOW(); void captureAndSend();
